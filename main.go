@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github/OnlyAdal/godesde0/teclado"
+	"github/OnlyAdal/godesde0/files"
 )
 
 func main() {
@@ -30,6 +30,10 @@ func main() {
 	// default:
 	// 	fmt.Printf("%s \n", os)
 	// }
-	teclado.IngresoNumeros()
+	//teclado.IngresoNumeros()
+	//iteraciones.Iterar()
+	//fmt.Println(ejercicios.GetnumberforMath())
+	//files.SumarTabla()
+	files.LeoArchivo2()
 
 }
