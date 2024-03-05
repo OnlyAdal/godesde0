@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github/OnlyAdal/godesde0/files"
+	"github/OnlyAdal/godesde0/middleware"
 )
 
 func main() {
@@ -34,6 +34,24 @@ func main() {
 	//iteraciones.Iterar()
 	//fmt.Println(ejercicios.GetnumberforMath())
 	//files.SumarTabla()
-	files.LeoArchivo2()
+	//arreglos_slices.Capacidad()
+	//mapas.MostrarMapas()
+	//users.AltaUsuario()
+	//Pedro := new(modelos.Hombre)
+	//e.HumanosRespirando(Pedro)
+
+	//Maria := new(modelos.Mujer)
+	//e.HumanosRespirando(Maria)
+	//d.EjemploPanic()
+
+	/*canal1 := make(chan bool)
+	go gorutines.MinombreLentooo("Jose Adalberto Perez Garcia", canal1)
+	fmt.Println("Estoy aqui")
+
+	<-canal1*/
+
+	//webserver.MiWebServer()
+
+	middleware.MiMiddleware()
 
 }
